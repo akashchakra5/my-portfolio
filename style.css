@@ -4,7 +4,17 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
 section {
+    margin-bottom: 100px;
+}
+
+.flexible-container {
     display: flex;
 }
 
@@ -19,6 +29,12 @@ section {
     background-position: right;
 }
 
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .dream-big div {
     width: 50%;
     padding-right: 5%;
@@ -28,6 +44,15 @@ section {
     width: 50%;
     padding-left: 5%;
     margin-left: 0;
+
+}
+
+.experience-item {
+    width: 40%;
+    margin: 5%;
+    padding: 15px 25px;
+    box-shadow: 5px 10px 40px grey;
+
 }
 
 .name-front {
@@ -40,4 +65,16 @@ section {
     color: white;
     padding: 4px 10px;
     border-radius: 5px;
+}
+
+#full-stuck {
+    border-left: 7px solid orange;
+}
+
+#baby-web {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
