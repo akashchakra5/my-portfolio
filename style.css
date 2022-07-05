@@ -7,9 +7,15 @@ section {
     display: flex;
 }
 
+.dream-big div {
+    width: 50%;
+    padding-right: 5%;
+}
+
 .half-width {
     width: 50%;
     padding-left: 5%;
+    margin-left: 0;
 }
 
 .name-front {
